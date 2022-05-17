@@ -1,0 +1,40 @@
+@media only screen and (max-width: 767px) {
+  .main__container {
+    background-image: url(/img/1cube.png);
+    background-repeat: no-repeat;
+    background-position-x: 149px;
+    background-position-y: 490px;
+    background-size: 13cm;
+  }
+
+  .nav__mobile--menu--btn {
+    display: block;
+    border: none;
+    background-color: #460000;
+  }
+
+  .header__item {
+    display: none;
+  }
+
+  .header__logo {
+    margin-left: -320px;
+
+    img {
+      width: 70%;
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+  }
+
+  .box {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    flex-basis: calc(100% / 2 - 10px);
+  }
+
+  .footer {
+    margin-top: 50px;
+  }
+}

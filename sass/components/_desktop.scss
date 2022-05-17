@@ -1,0 +1,17 @@
+@media only screen and (max-width: 992px) {
+  .main__container {
+    background-image: url(/img/1cube.png);
+    background-repeat: no-repeat;
+    background-position-x: 200px;
+    background-position-y: 190px;
+    background-size: 20cm;
+  }
+  .header__item {
+    font-size: 10px;
+    margin-left: 119px;
+  }
+
+  .footer {
+    margin-top: 50px;
+  }
+}
